@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 325px;
+}
+
+@media (min-width: 1055px) {
+  main {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer {
+    margin-top: 35px;
+  }
+}
