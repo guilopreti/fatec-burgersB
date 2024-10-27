@@ -17,7 +17,9 @@ const CartTotal = ({ currentSale, deleteAllSales, showModal }) => {
         <Button secondaryColor onClick={deleteAllSales}>
           Remover Todos
         </Button>
-        <Button onClick={() => showModal()}>Finalizar Compra</Button>
+        <Button greenColor onClick={() => showModal()}>
+          Finalizar Compra
+        </Button>
       </div>
     </div>
   );

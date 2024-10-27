@@ -1,13 +1,29 @@
 .button__orange {
   color: white;
   cursor: pointer;
-  background-color: #e55321; 
+  background-color: #e55321;
+  font-family: "Roboto Mono", monospace;
+}
+
+.button__blue {
+  color: white;
+  cursor: pointer;
+  background-color: #007bff;
+  font-family: "Roboto Mono", monospace;
+}
+
+.button__green {
+  color: white;
+  cursor: pointer;
+  background-color: #28a745;
+  font-family: "Roboto Mono", monospace;
 }
 
 .button__grey {
   background-color: #e0e0e0;
   color: #828282;
   cursor: pointer;
+  font-family: "Roboto Mono", monospace;
 }
 
 .button__orange:hover {
@@ -15,11 +31,24 @@
   background-color: orangered;
 }
 
+.button__blue:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #0056b3;
+}
+
+.button__green:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #218838;
+}
+
 .button__orange:active {
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
-  transform: scale(0.98); 
-  
-  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+}
+
+.button__blue:active {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
 }
 
 .button__grey:hover {

@@ -27,6 +27,7 @@ const Product = ({ id, name, category, price, img, handleClick }) => {
       <span className="category">{category}</span>
       <span className="price">R$ {price.toFixed(2)}</span>
       <Button
+        blueColor
         onClick={function () {
           handleClick(id);
         }}
